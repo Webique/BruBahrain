@@ -366,8 +366,11 @@ body {
     }
 
     .menu-button {
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: 10px 20px;
+    }
+    .menu-description{
+        font-size: 1rem;
     }
 }
 
@@ -394,7 +397,6 @@ body {
 
 .opening-hours h2 {
     font-size: 3rem;
-    text-transform: uppercase;
     margin-bottom: 1.5rem;
     letter-spacing: 1px;
 }
@@ -446,11 +448,11 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .opening-hours h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .opening-hours-description {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .hours-row {
@@ -562,7 +564,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .gallery-section h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .gallery-section p {
@@ -599,9 +601,8 @@ body {
 
 /* Section Title */
 .contact-section .section-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
